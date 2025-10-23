@@ -53,7 +53,7 @@ def get_messages_from_SMS(number:str, limit:int)-> str:
         >>> get_messages_from_SMS("+1234567890", 5)
         "Hey, how's it going?\nAre you free tomorrow?\n..."
     """
-    db_path = "/Users/kennethsan/Library/Messages/chat.db"
+    db_path = "/Users/username/Library/Messages/chat.db"
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
