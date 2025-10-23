@@ -1,0 +1,7 @@
+langchain-core>=0.0.326
+langchain-ollama>=0.0.34
+langchain-huggingface>=0.0.23
+langchain-community>=0.0.67
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+datasets>=2.13.1
