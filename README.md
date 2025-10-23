@@ -8,4 +8,5 @@ File structure
 ├── helper.py # Utility/helper functions used for SMS handling.
 ├── main.py # Main script to run the project
 ├── rag.py # Retrieval-Augmented Generation functionality
+├── requirements.txt # Dependencies
 └── system_prompt.txt # Text file containing the system prompt for the model
