@@ -74,6 +74,7 @@ def get_messages_from_SMS(number:str, limit:int)-> str:
     return "\n".join(textlist)
 
 def send_imessage(number:str, message:str)->None:
+    message = message.replace('"', '\\"')
     """
     Send an iMessage to a specified phone number using AppleScript on macOS.
 
